@@ -9,4 +9,4 @@ api.add_listener(
     ON_CONNECT,
     CheckiOReferee(
         tests=TESTS,
-        checker=checkers.float.comparison(1)).on_ready)
+        checker=checkers.float_comparison(1)).on_ready)

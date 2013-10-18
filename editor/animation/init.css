@@ -158,6 +158,42 @@ fieldset[disabled] .btn {
     cursor: not-allowed;
     background-color: #eeeeee;
 }
+.tryit-content .tool{
+    text-align: center;
+}
 
-/* Your CSS */
-/*          */
+
+.tryit-content .tooltip{
+    z-index: 9999;
+    text-align: center;
+    /*float: left;*/
+    position: absolute;
+    border: solid #294270 1px;
+
+    top: 40px;
+    left: 40px;
+    display: none;
+    width: 80px;
+    font-size: 14px;
+    background-color: #8FC7ED;
+    /*opacity: 0.5;*/
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;;
+}
+
+.tryit-content .checkio-result{
+    font-size: 16px;
+    text-align: center;
+    color: #294270;
+    width: 100px;
+    vertical-align: top;
+}
+
+.tryit-content .bn-reset {
+    margin-top: 20px;
+}
+
+.tryit-content .bn-check {
+    height: 40px;
+}

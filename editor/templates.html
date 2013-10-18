@@ -3,7 +3,7 @@
         <div class="output"></div>
         <div class="explanation center-exp"></div>
         <div class="answer"></div>
-        <div class="call"></div>
+        <div class="call"><span class="call-result"></span></div>
     </div>
 </script>
 
@@ -11,16 +11,19 @@
     <div class="tryit-content center-exp">
         <table class="tool">
             <tr>
+                <td rowspan="3" class="tryit-canvas"></td>
                 <td>
-                    <input type="text" value="test">
-                </td>
-                <td>
-                    <button class="bn-check btn">Action</button>
+                    <button class="bn-reset btn">Reset</button>
                 </td>
             </tr>
             <tr>
-                <td colspan="2" class="checkio-result">
-                    Result:<br>
+                <td>
+                    <button class="bn-check btn">Calculate</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="checkio-result">
+                    Result:
                     <span class="checkio-result-in">&nbsp;</span>
                 </td>
             </tr>
