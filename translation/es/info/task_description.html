@@ -1,0 +1,26 @@
+<p>Hay un pol&iacute;gono convexo en un plano de coordenadas. Este pol&iacute;gono se presenta como una lista de las coordenadas de sus v&eacute;rtices. Cada v&eacute;rtice est&aacute; conectado secuencialmente, considerando adem&aacute;s que el ultimo se conecta en el primero. El pol&iacute;gono tiene N v&eacute;rtices. Deber&aacute;s escribir un programa que calcule el &aacute;rea del pol&iacute;gono., teniendo en cuenta que el resultado tenga una precisi&oacute;n de &plusmn; 0.1.</p>
+
+<p style="text-align: center"><img alt="area-convex-polygon" class="for_info_only" src="{{ MEDIA }}area-convex-polygon.png" title="area-convex-polygon" width="600px" /> <img alt="area-convex-polygon" class="for_editor_only" src="{{ MEDIA }}area-convex-polygon.png" title="area-convex-polygon" width="380px" /></p>
+
+<p><strong>Datos de Entrada: </strong> Coordenadas como una lista de listas. Cada lista contiene dos enteros (int).</p>
+
+<p><strong>Output: </strong> El &aacute;rea del pol&iacute;gono como un decimal (float).</p>
+
+<div class="for_info_only">
+<p><strong>Ejemplo:</strong></p>
+
+<pre class="brush: python">
+checkio([[1, 1], [9, 9], [9, 1]]) == 32
+checkio([[4, 10], [7, 1], [1, 4]]) == 22.5
+checkio([[1, 2], [3, 8], [9, 8], [7, 1]]) == 40
+checkio([[3, 3], [2, 7], [5, 9], [8, 7], [7, 3]]) == 26
+checkio([[7, 2], [3, 2], [1, 5],
+         [3, 9], [7, 9], [9, 6]]) == 42
+checkio([[4, 1], [3, 4], [3, 7], [4, 8],
+         [7, 9], [9, 6], [7, 1]]) == 35.5</pre>
+</div>
+
+<p class="for_info_only"><strong>&iquest;C&oacute;mo se usa?: </strong> Este concepto es muy &uacute;til en topograf&iacute;a y arquitectura. Puedes mejorar el algoritmo y calcular la superficie de cualquier zona en un mapa, teniendo en cuenta la pendiente y otros puntos de inter&eacute;s. Tambi&eacute;n podr&iacute;as utilizar esta idea para construir algo como un edificio, o un barco.</p>
+
+<p><strong>Condiciones:</strong> 3 &le; N &le; 8<br />
+&forall; x, y &isin; coordenadas: 0 &le; x &le; 10; 0 &le; y &le; 10;</p>
